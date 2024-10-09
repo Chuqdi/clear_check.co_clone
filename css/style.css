@@ -1,0 +1,208 @@
+/*
+Theme Name: qhub
+Theme URI:
+Author: YetiTeam
+Author URI: https://www.templatemonster.com/authors/yetiteam/
+Description: qhub - Business WordPress theme
+Version: 1.0.0
+License: Commercial
+License URI: https://www.templatemonster.com/help/template-licenses.html
+Tags: custom-header, left-sidebar, right-sidebar, post-formats, full-width-template
+Text Domain: qhub
+Domain Path: /languages
+
+This theme uses great Unyson Framework to make best user experience
+
+see css/main.css for all of the styles
+*/
+
+
+/*
+** WordPress Required
+*/
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    white-space: nowrap;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.screen-reader-text:focus {
+    clip: auto !important;
+    display: block;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000; /* Above WP toolbar. */
+}
+
+.sticky,
+.bypostauthor{position: relative;}
+.h2_home_text {
+    font-size:24px;
+    line-height:32px;
+    font-weight:normal;
+    color:#858585!important;
+    margin-bottom:6px;
+    padding-bottom:0px;
+    border:none;
+    text-align: center;
+
+}
+.apply-btn{
+color: white!important;    
+font: 16px/38px 'Ubuntu', sans-serif !important;    
+margin: 10px auto;    
+display: block;    
+border-radius: 5px;    
+text-align: center;
+width: 330px!important;
+text-transform: uppercase !important;
+}
+.apply-btn{background:#74ce00!important;font:22px/42px Ubuntu,sans-serif!important;}
+.apply-btn:hover{background-color:#88e313!important}.apply-btn:hover:active,.apply-btn:hover:focus,.apply-btn:hover:hover{color:#fff!important}
+@media only screen and (max-width: 768px) {
+.h2_home_text {
+    /*font-size: 16px!important;*/
+    font-size: 14px!important;
+    line-height: 22px !important;
+    margin-bottom: 25px !important;
+    }
+    .apply-btn {
+        width: 86%;
+        font-size: 18px!important
+        }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+.mobile-apply{
+display:block !important;
+}
+.new-custom{
+padding: 0 22px 0 0 !important; 
+}
+.apply-btn {
+width: 50% !important;
+}
+	/* .desktop_display_none{display: block !important ;}
+	.desktop_display_none img {margin:0px !important ;}
+	.mobile_display_none{display: none !important ;}
+	.apply-btn{ width: auto !important; font-size: 14px !important; line-height: 20px !important;}
+	.apply-btn span{ font-weight: bold; font-size: 18px !important;}
+	.front-page  .section_padding_top_100 .container {padding-top: 0px !important;}*/
+}
+@media (max-width: 480px) {
+.apply-btn {
+    width: 90% !important;
+    }
+}
+@media (max-width: 360px) {
+.apply-btn {
+    width: 90% !important;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+	 .h2_home_text {
+        font-size: 14px!important;
+        line-height: 22px !important;
+        margin-bottom: 25px !important;
+        }
+  .sf-menu>li>a, .sf-menu ul>li>a {
+		padding: 14px 10px 0px 10px!important;
+	}
+	.main-logo{
+		max-width: 150px !important;
+	 }
+	/* .desktop_display_none{display: block !important ;}
+	.desktop_display_none img {margin:0px !important ;}
+	.mobile_display_none{display: none !important ;}
+	.apply-btn{ width: auto !important; font-size: 14px !important; line-height: 20px !important;}
+	.apply-btn span{ font-weight: bold; font-size: 18px !important;}
+	.front-page  .section_padding_top_100 .container {padding-top: 0px !important;}*/
+	 
+}

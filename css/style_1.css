@@ -1,0 +1,111 @@
+/*
+Theme Name: Coworking Child
+Theme URI:
+Author: YetiTeam
+Author URI: https://www.templatemonster.com/authors/yetiteam/
+Description: qhub - Business WordPress theme
+Template: qhub
+Version: 1.0.0
+License: Commercial
+License URI: https://www.templatemonster.com/help/template-licenses.html
+Tags: blue, black, green, white, light, dark, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: qhub-child
+
+*/
+/*************** ADD YOUR CUSTOM CSS HERE  ***************/
+.ttl_ds{width: 70%!important;}
+.flexslider .desc-bg {
+	margin: 0;
+	padding: 0;
+}
+.flexslider .desc-bg a.simple_link {
+	width: 100vw;
+	height: 100vh;
+}
+
+/*.page h2, .page .h2 {
+	font-size: 3rem !important;
+}
+.page h1, .page .h1 {
+	font-size: 3.6rem !important;
+}
+.test {}
+*/
+
+.top_phone {
+    color: #000;
+    float: right;
+    margin-top:-35px;
+}
+.top_phone span {
+    font-size: 24px;
+}
+.teaser_parent {
+    flex: 1;
+    padding: 0 !important;
+    margin: 0 15px;
+}
+ul#menu-header-menu {
+    width: 100% !important;
+}
+.page_header.header-1 .header_right_buttons{
+	position: absolute;
+		top: 40px;
+		right: 50px;
+}
+ul#menu-header-menu {
+    width: 100% !important;
+}
+.sf-more-li{
+	display:none !important;
+}
+.affix ul#menu-header-menu {margin-top:15px;}
+.affix .sf-menu > li > a{padding-bottom:1.3em !important}
+
+/*******************************************
+**** Media Types 
+*******************************************/
+@media (max-width: 991px) {
+	.sf-menu {
+		opacity: inherit;
+		visibility: hidden;
+	}
+
+	.mobile-active .sf-menu {
+		opacity: inherit;
+		visibility: visible;
+	}
+}
+@media (max-width:619px) {
+	.desc-bg {
+		margin-top: -20px !important;
+	}
+}
+.desktop_display_none_new{display: none ;}
+
+/************ END Media Types *************/
+p.your-class{border-width:4px;border-style: solid;background-color:#df4c4c !important;
+  border-color:#df4c4c !important;padding: 10px 0 7px 0;display: inline-block !important;width: 100%;color:#fff;text-align: center;}
+.overflowx{overflow-x: auto;}.left-btn{margin:0 !important;}
+.desktop_display_none{display: none;}
+.apply-btn{ width: 400px !important;}
+@media (max-width: 767px) {
+	.hidden-phone {
+		display: none !important;
+	}
+	ul#menu-header-menu{
+		height: 365px;
+	}
+	.desktop_display_none{display: block !important ;}
+	.desktop_display_none img {margin:0px !important ;}
+	/* kaleem added to display none on the mobile */
+	.mobile_display_none{display: none !important ;}
+	.apply-btn{ width: auto !important; font-size: 14px !important; line-height: 20px !important;}
+	.apply-btn span{ font-weight: bold; font-size: 18px !important;}
+	.front-page  .section_padding_top_100 .container {padding-top: 0px !important;}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+.cc-window.cc-floating{
+	max-width: 100% !important;
+}
+}
